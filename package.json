@@ -2,10 +2,13 @@
   "name": "vue-gh-pages",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://magnobiet.com/vue-gh-pages/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^2.6.5",
