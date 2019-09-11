@@ -1,3 +1,3 @@
 module.exports = {
-	publicPath: 'https://magnobiet.com/vue-gh-pages/'
+	publicPath: 'https://vue-app.magnobiet.com'
 };
